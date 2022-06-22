@@ -1,0 +1,182 @@
+/****************** 总容器 ******************/
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+/****************** header ******************/
+.wrapper header{
+    width: 100%;
+    height: 15vw;
+    background: url("../img/chisha/head3.png")  repeat;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 5vw;
+    color: #6e6e6e;
+    font-family: 仿宋;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper header img{
+    width: 5vw;
+    height: 5vw;
+}
+.wrapper header .a2{
+    font-weight: 800;
+    color: #030303;
+}
+/****************** 关注 ******************/
+.wrapper .follow1{
+    width: 100%;
+    height: 500px;
+    background:#ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .follow{
+    width: 100%;
+    height: 2200px;
+    background: url("../img/my/background.png")  fixed center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .follow1 .follow-searchpeople{
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-family: 仿宋;
+}
+.wrapper .follow1 .follow-searchpeople .title1{
+    font-size: 2.5vw;
+    font-weight: 800;
+
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.wrapper .follow1 .follow-searchpeople .title2{
+    font-size: 2.3vw;
+    color: #727272;
+
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper .follow .follow-user{
+    width: 90vw;
+    height: 12vw;
+    background-color: #ffffff;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 15px;
+    border: 1px solid #AAAAAA;
+    padding: 1vw 2vw 2vw 2vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 仿宋;
+}
+.wrapper .follow .follow-user img{
+    width: 12vw;
+    height: 12vw;
+}
+.wrapper .follow .follow-user .follow-user-title{
+    margin-left: -20vw;
+
+   justify-content: space-around;
+    align-items: center;
+
+    font-family: 仿宋;
+}
+.wrapper .follow .follow-user .follow-user-title p1{
+    color: #030303;
+    font-size: 4vw;
+    font-weight: 800;
+}
+.wrapper .follow .follow-user .follow-user-title .a1{
+    color: #8a8a8a;
+    font-size: 2.5vw;
+
+    display: flex;
+    justify-content: left;
+    margin-top: 3vw;
+}
+.wrapper .follow .follow-user .follow-user-title .a1 p2{
+    color: #F1884F;
+    font-size: 2.7vw;
+}
+.wrapper .follow .follow-user .btn{
+    width: 22vw;
+    height: 8vw;
+    position: relative;
+    background: rgb(243, 204, 51);
+    border:0 ;
+    border-radius: 1.6vw;
+
+    font-size: 3vw;
+}
+
+/****************** 底部菜单部分 ******************/
+.wrapper .block{
+    width: 100%;
+    height: 10vw;
+}
+.wrapper .footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li img{
+    width: 8vw;
+    height: 8vw;
+}
+.wrapper .footer li p{
+    font-size: 2.8vw;
+}

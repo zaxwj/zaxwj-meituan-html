@@ -1,0 +1,482 @@
+body{
+    background: url("../img/my/background.png")  repeat;
+}
+/****************** 总容器 ******************/
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+}
+/****************** header ******************/
+.wrapper header{
+    width: 100%;
+    height: 20vw;
+    background: #ffffff;
+    margin-top: 3vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper header img{
+    width: 12vw;
+    height: 12vw;
+    margin-left: -10vw;
+}
+.wrapper header p{
+    font-size: 50px;
+    font-family: 仿宋;
+    font-weight: 800;
+
+    margin-left: -23vw;
+}
+.wrapper header .icon{
+    width: 20vw;
+    margin-right: -10vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.wrapper header .icon i{
+    font-size: 5vw;
+}
+/****************** VIP ******************/
+.wrapper .VIP{
+    width: 94%;
+    height: 20vw;
+    background: #fafae4;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    border: 1px solid #ffff00;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .VIP .VIP-left{
+    width: 55vw;
+    height: 20vw;
+    margin-left: 3vw;
+
+}
+.wrapper .VIP .VIP-left .VIP-left-top{
+    font-size: 3vw;
+    font-family: 仿宋;
+    margin-top: 4vw;
+}
+.wrapper .VIP .VIP-left .VIP-left-top img{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+.wrapper .VIP .VIP-left .VIP-left-top p1{
+    font-weight: 800;
+}
+.wrapper .VIP .VIP-left .VIP-left-top p2{
+    background: #fde8ce;
+    color: #b47502;
+    border-radius: 1vw;
+}
+.wrapper .VIP .VIP-left .VIP-left-end{
+    font-size: 3.5vw;
+    font-family: 仿宋;
+    margin-top: 2vw;
+    font-weight: 800;
+}
+.wrapper .VIP .VIP-left .VIP-left-end p4{
+    font-size: 4vw;
+    color: red;
+}
+.wrapper .VIP .VIP-right{
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: 仿宋;
+    font-weight: 800;
+
+    padding: 2vw 2vw 2vw 2vw;
+    border-radius: 15px;
+    margin-right: 3vw;
+    border: 0;
+    background-color: red;
+    background-image: linear-gradient(to right,#ffa600,#ff0000);
+}
+/****************** 我的资产 ******************/
+.wrapper .assets{
+    width: 94%;
+    height: 40vw;
+    background-color: #ffffff;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 25px;
+
+}
+.wrapper .assets .assets-top{
+    height: 20%;
+    width: 100%;
+    padding: 4vw 0 0 4vw;
+
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: 仿宋;
+}
+.wrapper .assets .assets-end{
+    height: 80%;
+    width: 100%;
+    margin-top: -3vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.wrapper .assets .assets-end li{
+    width: 30vw;
+    height: 14vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .assets .assets-end li .assets-end-top{
+    font-size: 4vw;
+    font-family: 仿宋;
+    font-weight: 800;
+    display: flex;
+}
+.wrapper .assets .assets-end li .assets-end-top img{
+    width: 4vw;
+    height: 4vw;
+}
+.wrapper .assets .assets-end li .assets-end-end{
+    width: 60%;
+    font-size: 2.5vw;
+    font-family: 仿宋;
+    color: #a4a4a4;
+
+    display: flex;
+    justify-content: left;
+    align-content: end;
+    margin-top: 1vw;
+}
+.wrapper .assets .assets-end li .assets-end-end p1{
+    color: #ffa600;
+    font-size: 3vw;
+}
+/****************** 我的收藏 ******************/
+.wrapper .collect{
+    width: 94%;
+    height: 23vw;
+    background-color: #ffffff;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 25px;
+}
+.wrapper .collect .collect-top{
+    height: 20%;
+    width: 100%;
+    padding: 4vw 0 0 4vw;
+
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: 仿宋;
+}
+.wrapper .collect .collect-end{
+    height: 80%;
+    width: 94%;
+    margin-top: -3vw;
+    padding: 0 4vw 0 4vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+    font-size: 2.5vw;
+    color: #a4a4a4;
+    font-family: 仿宋;
+}
+.wrapper .collect .collect-end p{
+    display: flex;
+    align-content: center;
+}
+.wrapper .collect .collect-end .btn{
+    padding: 1vw 2vw 1vw 2vw;
+    border: 0;
+    border-radius: 10px;
+    background-color: #f3c76a;
+
+    font-family: 仿宋;
+    font-size: 3vw;
+    font-weight: 800;
+
+}
+/****************** 我的钱包 ******************/
+.wrapper .wallet{
+    width: 94%;
+    height: 30vw;
+    background-color: #ffffff;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 25px;
+}
+.wrapper .wallet .wallet-top{
+    height: 20%;
+    width: 94%;
+    padding: 4vw 4vw 0 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: 仿宋;
+}
+.wrapper .wallet .wallet-top .wallet-top-right{
+    font-size: 3vw;
+    font-weight: 500;
+    color: #a4a4a4;
+}
+.wrapper .wallet .wallet-end{
+    height: 80%;
+    width: 94%;
+    margin-top: -3vw;
+    padding: 0 4vw 0 4vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+    font-size: 3vw;
+    font-family: 仿宋;
+}
+.wrapper .wallet .wallet-end li{
+    width: 20vw;
+    height: 14vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .wallet .wallet-end li p1{
+    font-size: 5vw;
+    font-weight: 800;
+}
+.wrapper .wallet .wallet-end li p3{
+    margin-top: 1vw;
+}
+.wrapper .wallet .wallet-end li p3{
+    font-size: 2.5vw;
+    color: #a4a4a4;
+    margin-top: 1vw;
+}
+/****************** 我的功能 ******************/
+.wrapper .function{
+    width: 94%;
+    height: 45vw;
+    background-color: #ffffff;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 25px;
+
+}
+.wrapper .function .function-top{
+    height: 20%;
+    width: 100%;
+    padding: 4vw 0 0 4vw;
+
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: 仿宋;
+}
+.wrapper .function .function-end{
+    height: 80%;
+    width: 94vw;
+    margin-top: -3vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.wrapper .function .function-end li{
+    width: 23vw;
+    height: 16vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+
+    font-size: 3vw;
+    font-family: 仿宋;
+
+}
+.wrapper .function .function-end li img{
+    width: 6vw;
+    height: 6vw;
+    margin-block-end: 2vw;
+}
+/****************** 我的服务 ******************/
+.wrapper .service{
+    width: 94%;
+    height: 30vw;
+    background-color: #ffffff;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 25px;
+
+}
+.wrapper .service .service-top{
+    height: 20%;
+    width: 100%;
+    padding: 4vw 0 0 4vw;
+
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: 仿宋;
+}
+.wrapper .service .service-end{
+    height: 80%;
+    width: 94vw;
+    margin-top: -3vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.wrapper .service .service-end li{
+    width: 23vw;
+    height: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+
+    font-size: 3vw;
+    font-family: 仿宋;
+
+}
+.wrapper .service .service li img{
+    width: 6vw;
+    height: 6vw;
+    margin-block-end: 2vw;
+}
+/****************** 更多推荐 ******************/
+.wrapper .recommend{
+    width: 94%;
+    height: 65vw;
+    background-color: #ffffff;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 25px;
+
+}
+.wrapper .recommend .recommend-top{
+    height: 20%;
+    width: 100%;
+    padding: 4vw 0 0 4vw;
+
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: 仿宋;
+}
+.wrapper .recommend .recommend-end{
+    height: 80%;
+    width: 94vw;
+    margin-top: -3vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.wrapper .recommend .recommend-end li{
+    width: 23vw;
+    height: 16vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+
+    font-size: 3vw;
+    font-family: 仿宋;
+
+}
+.wrapper .recommend .recommend-end li img{
+    width: 6vw;
+    height: 6vw;
+    margin-block-end: 2vw;
+}
+/****************** 底部菜单部分 ******************/
+.wrapper .block{
+    width: 100%;
+    height: 12vw;
+    margin-top: 4vw;
+}
+.wrapper .footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li img{
+    width: 8vw;
+    height: 8vw;
+}
+.wrapper .footer li p{
+    font-size: 2.8vw;
+}
+
+

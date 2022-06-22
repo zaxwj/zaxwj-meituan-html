@@ -1,0 +1,127 @@
+/****************** 总容器 ******************/
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: url("../img/chisha/head3.png")  fixed center;
+}
+/****************** header ******************/
+.wrapper header{
+    width: 100%;
+    height: 15vw;
+    background: url("../img/chisha/head3.png")  repeat;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 5vw;
+    color: #6e6e6e;
+    font-family: 仿宋;
+
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper header img{
+    width: 5vw;
+    height: 5vw;
+}
+.wrapper header .a2{
+    font-weight: 800;
+    color: #030303;
+}
+
+/****************** 推荐 ******************/
+.wrapper .recommend{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .recommend li {
+    width: 46vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper .recommend li img {
+    width: 48vw;
+}
+.wrapper .recommend li .recommend-title{
+    width: 46vw;
+    font-size: 3vw;
+    font-family: 仿宋;
+    font-weight: 800;
+    color: #030303;
+
+    display: flex;
+    justify-content: left;
+    margin-block-end: 1vw;
+}
+.wrapper .recommend li .recommend-user{
+    width: 48vw;
+    font-size: 2.5vw;
+    font-family: 仿宋;
+    color: #b6b6b6;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.wrapper .recommend li .recommend-user i{
+    color: red;
+    font-size: 3vw;
+}
+
+
+/****************** 底部菜单部分 ******************/
+.wrapper .block{
+    width: 100%;
+    height: 15vw;
+    margin-top: 1vw;
+}
+.wrapper .footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li img{
+    width: 8vw;
+    height: 8vw;
+}
+.wrapper .footer li p{
+    font-size: 2.8vw;
+}
